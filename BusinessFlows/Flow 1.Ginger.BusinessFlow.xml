@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="cc93b458-2aea-4cd1-b3a3-f0fa11d943e2" ItemType="BusinessFlow" CreatedBy="dp" Created="202006200942" GingerVersion="3.5.0.0" Version="33" LastUpdateBy="dp" LastUpdate="202006201413" />
+<GingerRepositoryItem><Header ItemGuid="cc93b458-2aea-4cd1-b3a3-f0fa11d943e2" ItemType="BusinessFlow" CreatedBy="dp" Created="202006200942" GingerVersion="3.5.0.0" Version="34" LastUpdateBy="dp" LastUpdate="202006201415" />
 <BusinessFlow Elapsed="6972" Guid="cc93b458-2aea-4cd1-b3a3-f0fa11d943e2" Name="ProblemA_Challenge0" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="ProblemA_1_Challange0" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="f74dd7b4-7ba7-4c1e-9af4-0d82c3b7f089" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="APITest">
@@ -68,6 +68,7 @@
 <ActReturnValue Active="True" Guid="1e735849-7483-41f8-b072-1975379266af" mExpected="OK" Operator="Equals" Param="Header: Status Code " ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
 </ReturnValues>
 </ActWebAPIRest>
+<ActDummy Active="True" Description="Dummy Action" Guid="6aa5300d-d11b-4529-9454-65b73198a306" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
 </Acts>
 </Activity>
 </Activities>
