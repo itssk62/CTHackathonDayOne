@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="09c097a4-a991-435b-ad72-09263b30c296" ItemType="RunSetConfig" CreatedBy="dp" Created="202006201303" GingerVersion="3.5.0.0" Version="11" LastUpdateBy="dp" LastUpdate="202006201354" />
+<RunSetConfig Guid="09c097a4-a991-435b-ad72-09263b30c296" Name="Challenge0" ParentGuid="00000000-0000-0000-0000-000000000000" RunWithAnalyzer="False">
+<GingerRunners>
+<GingerRunner Guid="710448e4-12cd-4537-9b70-31be34d95e0a" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="2802768d-b776-4e31-ad59-ec908979259c" AgentName="APITest - Agent 1" AppID="acbb4bde-12b4-4aba-9125-6b74e24b52b4" AppName="APITest" Guid="4891c3dc-b92f-48c8-8b35-05476c3fc0b2" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ApplicationAgent AgentID="a707cad4-5f24-4e44-ac1f-96b3134cd894" AgentName="Chrome" AppID="08cd614f-6be0-4014-a7fa-4419841b3e33" AppName="MyWebApp" Guid="a0f3b15d-0a4f-41d6-b878-df0f066a5f10" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ApplicationAgent AgentID="00000000-0000-0000-0000-000000000000" AppID="e747b5aa-6489-4d9b-9d87-6eed64126987" AppName="commandLine" Guid="eb4fa115-c4bc-4595-a852-ff28c6bf1d8d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="cc93b458-2aea-4cd1-b3a3-f0fa11d943e2" BusinessFlowInstanceGuid="439fc3ee-0283-4611-b541-5a7e8d3bd34d" BusinessFlowIsActive="True" BusinessFlowName="ProblemA_Challenge0" Guid="00bb3a5a-860b-4a1c-a5c7-a62e220cd296" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="03b92558-aeb6-4631-b4f4-027e621da997" BusinessFlowInstanceGuid="37d9edc6-0f55-43de-8493-58cdb47fb416" BusinessFlowIsActive="True" BusinessFlowName="ProblemB_Challenge0" Guid="4fa1d476-1e7e-43cd-a7c9-d22ac996abb6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="99c83258-2962-4bc7-ad7a-44b5f240fd71" BusinessFlowInstanceGuid="8cdcb2c9-4da2-48cd-a0f3-e724b6788cc3" BusinessFlowIsActive="True" BusinessFlowName="ProblemC_Challenge0" Guid="5e1f6fa4-5002-43e0-b2aa-56bff55e6aa6" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+<RunSetActionHTMLReport Condition="AlwaysRun" Guid="9582a3ec-c829-4470-96d2-4048ec1460bc" Name="Produce HTML Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" />
+</RunSetActions>
+</RunSetConfig></GingerRepositoryItem>
