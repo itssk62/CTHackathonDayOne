@@ -1,0 +1,1 @@
+{"Seq":1,"GUID":"19740f0a-6724-4001-ae58-64304c7b5ec3","ActivityName":"ProblemBChallenge3","StartTimeStamp":"2020-06-20T13:50:28.4243776Z","EndTimeStamp":"2020-06-20T13:50:54.5778925Z","Elapsed":20481,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

@@ -1,0 +1,1 @@
+{"Seq":1,"Name":"Runner 1","GUID":"710448e4-12cd-4537-9b70-31be34d95e0a","EnvironmentName":"Default","StartTimeStamp":"2020-06-20T13:51:20.2842543Z","EndTimeStamp":"2020-06-20T13:51:44.8374563Z","Elapsed":24.551,"ApplicationAgentsMappingList":["APITest - Agent 1_:_APITest","Chrome_:_MyWebApp","_:_commandLine"]}

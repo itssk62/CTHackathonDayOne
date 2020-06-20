@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="cc93b458-2aea-4cd1-b3a3-f0fa11d943e2" ItemType="BusinessFlow" CreatedBy="dp" Created="202006200942" GingerVersion="3.5.0.0" Version="29" LastUpdateBy="dp" LastUpdate="202006201146" />
+<GingerRepositoryItem><Header ItemGuid="cc93b458-2aea-4cd1-b3a3-f0fa11d943e2" ItemType="BusinessFlow" CreatedBy="dp" Created="202006200942" GingerVersion="3.5.0.0" Version="32" LastUpdateBy="dp" LastUpdate="202006201353" />
 <BusinessFlow Elapsed="6972" Guid="cc93b458-2aea-4cd1-b3a3-f0fa11d943e2" Name="ProblemA_Challenge0" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="ProblemA_1_Challange0" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="f74dd7b4-7ba7-4c1e-9af4-0d82c3b7f089" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="APITest">
@@ -31,9 +31,6 @@
 <ActInputValue Guid="fb19ef17-cdc8-4b06-a5c2-65cf7cb82682" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
 <ActInputValue Guid="09c3dcf8-1c5c-482e-92d0-42444ac73cc6" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
-
-<ReturnValues>
-</ReturnValues>
 </ActWebAPIRest>
 </Acts>
 </Activity>
@@ -71,6 +68,7 @@
 <ActReturnValue Active="True" Guid="1e735849-7483-41f8-b072-1975379266af" mExpected="OK" Operator="Equals" Param="Header: Status Code " ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
 </ReturnValues>
 </ActWebAPIRest>
+<ActDummy Active="True" Description="Dummy Action" Guid="d0aede18-e8fb-48c5-b6be-481984cc7698" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
 </Acts>
 </Activity>
 </Activities>
@@ -78,8 +76,8 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="5cc8bdfd-d0b1-4589-8dec-4fb7978afab4" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f74dd7b4-7ba7-4c1e-9af4-0d82c3b7f089" ActivityName="ProblemA_1_Challange0" Guid="19748193-f403-4255-8efb-ad6b2794cf5e" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="3bba9653-4667-4a31-91d0-7ffed99b45df" ActivityName="ProblemA_4_Challange0" Guid="91081df8-bc21-47e5-9c8e-63803d5e6717" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f74dd7b4-7ba7-4c1e-9af4-0d82c3b7f089" ActivityName="ProblemA_1_Challange0" Guid="c4534d53-3348-4329-8195-ce3cc3f768ed" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="3bba9653-4667-4a31-91d0-7ffed99b45df" ActivityName="ProblemA_4_Challange0" Guid="597a5bc0-0345-4b4e-b57d-8f3bbb2dc1dd" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

@@ -1,0 +1,1 @@
+{"Name":"Challenge0","StartTimeStamp":"2020-06-20T13:51:20.2812506Z","EndTimeStamp":"2020-06-20T13:51:44.8384575Z","GUID":"09c097a4-a991-435b-ad72-09263b30c296","GingerVersion":"3.5","MachineName":"DP_PC","ExecutedbyUser":"dp","Elapsed":24.5572069}

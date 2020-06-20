@@ -1,1 +1,0 @@
-{"Seq":1,"ExecutedActivitiesGUID":["19740f0a-6724-4001-ae58-64304c7b5ec3"],"GUID":"9bbfb0f3-609e-4796-88d1-06909b2bce42","Name":"Group","AutomationPrecentage":"0%","StartTimeStamp":"0001-01-01T00:00:00","EndTimeStamp":"0001-01-01T00:00:00","RunStatus":"Stopped"}

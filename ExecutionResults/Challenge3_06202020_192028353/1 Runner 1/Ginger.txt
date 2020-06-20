@@ -1,0 +1,1 @@
+{"Seq":1,"Name":"Runner 1","GUID":"22a9fcbc-0f8e-4b66-8237-546fd658b706","EnvironmentName":"Default","StartTimeStamp":"2020-06-20T13:50:28.3873514Z","EndTimeStamp":"2020-06-20T13:50:55.2044537Z","Elapsed":26.807,"ApplicationAgentsMappingList":["Chrome_:_MyWebApp"]}
