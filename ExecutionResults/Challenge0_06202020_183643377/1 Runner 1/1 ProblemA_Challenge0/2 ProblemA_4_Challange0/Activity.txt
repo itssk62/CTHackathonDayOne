@@ -1,0 +1,1 @@
+{"Seq":2,"GUID":"3bba9653-4667-4a31-91d0-7ffed99b45df","ActivityName":"ProblemA_4_Challange0","StartTimeStamp":"2020-06-20T13:06:45.1334995Z","EndTimeStamp":"2020-06-20T13:06:46.0817669Z","Elapsed":947,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

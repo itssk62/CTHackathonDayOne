@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="99c83258-2962-4bc7-ad7a-44b5f240fd71" ItemType="BusinessFlow" CreatedBy="dp" Created="202006201125" GingerVersion="3.5.0.0" Version="12" LastUpdateBy="dp" LastUpdate="202006201304" />
+<BusinessFlow Guid="99c83258-2962-4bc7-ad7a-44b5f240fd71" Name="ProblemC_Challenge0" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="ProblemC_1_Challenge0" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1792cc94-3a5f-4290-8415-26129e3d9a19" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="APITest">
+<Acts>
+<ActWebAPIRest Active="True" Description="create user and Capture created user ID" Guid="a7edf953-196a-4dd4-ab1e-3bdd728eb8a1" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="33bfa089-47bd-4f07-9d7d-2c60c39937c9" Param="EndPointURL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="http://35.188.114.237:8088/api/v2/addusers" />
+<ActInputValue Guid="b3a57ff3-b99b-4a43-96f0-68cdde12751e" Param="URLUser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="38df4893-917f-4eed-b0d0-61d3d538118e" Param="URLDomain" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="1e41dd7e-f6e7-4a9a-ab89-dfe28b2436b8" Param="URLPass" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="4520efa4-504b-43be-8831-fed239ab585d" Param="NetworkCredentialsRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Default" />
+<ActInputValue Guid="5f554ba7-e0f5-4e30-8df2-35beaf96f46c" Param="RequestBodyTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeText" />
+<ActInputValue Guid="6e921354-c595-46a0-9cd2-71fc18ab8595" Param="CertificateTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllSSL" />
+<ActInputValue Guid="24e9ffba-ad93-481d-b86e-91e40adb63d0" Param="DoNotFailActionOnBadRespose" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="746de7c1-feb3-40aa-8a43-93418b0209e4" Param="UseLegacyJSONParsing" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="53e717bd-5a28-479a-835d-0cb0b6695fc7" Param="RequestBody" ParentGuid="00000000-0000-0000-0000-000000000000" Value="{&#xD;&#xA;&quot;name&quot;:&quot; {Var Name=Name}&quot;,&#xD;&#xA;&quot;surname&quot;:&quot;{Var Name=surname}&quot;,&#xD;&#xA;&quot;adress&quot;:&quot;{Var Name=address}&quot;&#xD;&#xA;}" />
+<ActInputValue Guid="545231ac-aabc-4c7f-b9ac-f65e6a87e3a9" Param="ImportRequestFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="4cf44dc8-b8d1-4284-913f-5830a3ac20ea" Param="CertificatePath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="020ed37a-1219-4441-afd0-ffca21245724" Param="CertificatePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="52213834-c7a2-454d-a03d-325db322e270" Param="ImportCetificateFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="ae147494-7e95-43c8-abf3-124cdbaca0df" Param="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="None" />
+<ActInputValue Guid="6337e82d-1e78-416a-8b0a-69f9f1cf33f7" Param="AuthorizationType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NoAuthentication" />
+<ActInputValue Guid="dbee23d9-a27e-4761-8715-ccfdf5acff5b" Param="AuthUsername" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="9ad6e5a6-b2ad-47a1-9e44-b539e2b51cd8" Param="AuthPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="4fdc93cc-f2e0-4a9f-b811-50deddd9ba8f" Param="CookieMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Session" />
+<ActInputValue Guid="e0d12639-558b-47c5-88cd-537f50884f11" Param="RequestType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POST" />
+<ActInputValue Guid="5effaa8d-6052-4e2d-b6dd-01675d297ff2" Param="ReqHttpVersion" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HTTPV11" />
+<ActInputValue Guid="f9a46f4a-102a-4a1f-bfff-df0e511ad04f" Param="ContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="3289f4bc-db7f-4427-afd4-98ca3e61be84" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="c5ea30e3-9a9c-495b-bd7c-8ba26ce7c894" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="fbe883c2-d06d-4f66-8fa4-e24bf04a3463" Operator="Equals" Param="id" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" StoreTo="Variable" StoreToValue="UserID" />
+</ReturnValues>
+</ActWebAPIRest>
+</Acts>
+
+<Variables>
+<VariableString Guid="23e08986-07ef-4f4a-90e4-48ef3fc4c33e" InitialStringValue="yash" MappedOutputType="None" Name="Name" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<VariableString Guid="d25d06ac-d902-4bae-b654-3db04d36ff7c" InitialStringValue="chaudhari" MappedOutputType="None" Name="surname" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<VariableString Guid="acb5a355-5516-4eb9-bae3-9c6b5175166d" InitialStringValue="pune" MappedOutputType="None" Name="address" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Variables>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="ProblemC_2_Challenge0" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="b8ed6151-5b5a-4205-a150-23f1417e26ab" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Acts>
+<ActBrowserElement Active="True" Description="Visit URL" Guid="72ee8ba7-fa8a-4644-b187-4fd0b52229c7" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="878f4f8c-2bd3-4769-8436-e8610385dd85" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="80c69059-5386-4499-87bf-2e82cc838256" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://cpsatexam.org/index.php/challenge-0/" />
+<ActInputValue Guid="a32e3b52-8431-4abe-a3c6-434c9e4473e4" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="85d06f32-e707-4161-9b9b-a0e64532c89d" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Current" />
+<ActInputValue Guid="65066406-0b8f-438d-a4f7-4cc3190e06ce" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+<ActInputValue Guid="547af257-dcdf-4847-8936-8f692e2e0388" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="1e3d9e5c-83d2-4d0d-9b28-7cf1c93aa8ed" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActBrowserElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="ProblemC_3_Challenge0" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1825be5c-bc9d-49ad-960d-0c4efda0394f" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="APITest">
+<Acts>
+<ActWebAPIRest Active="True" Description="Delete user" Guid="7e49ef5e-c669-4d6c-8769-5caa63b4118b" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="33bfa089-47bd-4f07-9d7d-2c60c39937c9" Param="EndPointURL" ParentGuid="00000000-0000-0000-0000-000000000000" Value="http://35.188.114.237:8088/api/v2/{Var Name=UserID}/deleteuser" />
+<ActInputValue Guid="b3a57ff3-b99b-4a43-96f0-68cdde12751e" Param="URLUser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="38df4893-917f-4eed-b0d0-61d3d538118e" Param="URLDomain" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="1e41dd7e-f6e7-4a9a-ab89-dfe28b2436b8" Param="URLPass" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="4520efa4-504b-43be-8831-fed239ab585d" Param="NetworkCredentialsRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Default" />
+<ActInputValue Guid="5f554ba7-e0f5-4e30-8df2-35beaf96f46c" Param="RequestBodyTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="FreeText" />
+<ActInputValue Guid="6e921354-c595-46a0-9cd2-71fc18ab8595" Param="CertificateTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" Value="AllSSL" />
+<ActInputValue Guid="24e9ffba-ad93-481d-b86e-91e40adb63d0" Param="DoNotFailActionOnBadRespose" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="746de7c1-feb3-40aa-8a43-93418b0209e4" Param="UseLegacyJSONParsing" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="53e717bd-5a28-479a-835d-0cb0b6695fc7" Param="RequestBody" ParentGuid="00000000-0000-0000-0000-000000000000" Value="&#xD;" />
+<ActInputValue Guid="545231ac-aabc-4c7f-b9ac-f65e6a87e3a9" Param="ImportRequestFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="4cf44dc8-b8d1-4284-913f-5830a3ac20ea" Param="CertificatePath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="020ed37a-1219-4441-afd0-ffca21245724" Param="CertificatePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="52213834-c7a2-454d-a03d-325db322e270" Param="ImportCetificateFile" ParentGuid="00000000-0000-0000-0000-000000000000" Value="False" />
+<ActInputValue Guid="ae147494-7e95-43c8-abf3-124cdbaca0df" Param="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="None" />
+<ActInputValue Guid="6337e82d-1e78-416a-8b0a-69f9f1cf33f7" Param="AuthorizationType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NoAuthentication" />
+<ActInputValue Guid="dbee23d9-a27e-4761-8715-ccfdf5acff5b" Param="AuthUsername" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="9ad6e5a6-b2ad-47a1-9e44-b539e2b51cd8" Param="AuthPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="4fdc93cc-f2e0-4a9f-b811-50deddd9ba8f" Param="CookieMode" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Session" />
+<ActInputValue Guid="e0d12639-558b-47c5-88cd-537f50884f11" Param="RequestType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="DELETE" />
+<ActInputValue Guid="5effaa8d-6052-4e2d-b6dd-01675d297ff2" Param="ReqHttpVersion" ParentGuid="00000000-0000-0000-0000-000000000000" Value="HTTPV11" />
+<ActInputValue Guid="f9a46f4a-102a-4a1f-bfff-df0e511ad04f" Param="ContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="3289f4bc-db7f-4427-afd4-98ca3e61be84" Param="ResponseContentType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="JSon" />
+<ActInputValue Guid="c5ea30e3-9a9c-495b-bd7c-8ba26ce7c894" Param="TemplateFileNameFileBrowser" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Guid="3404c641-5941-49c3-9178-b28161cd7d56" mExpected="OK" Operator="Equals" Param="Header: Status Code " ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActWebAPIRest>
+</Acts>
+
+<Variables>
+<VariableString Guid="23e08986-07ef-4f4a-90e4-48ef3fc4c33e" InitialStringValue="Ravi" MappedOutputType="None" Name="Name" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<VariableString Guid="d25d06ac-d902-4bae-b654-3db04d36ff7c" InitialStringValue="thakre" MappedOutputType="None" Name="surname" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<VariableString Guid="acb5a355-5516-4eb9-bae3-9c6b5175166d" InitialStringValue="pune" MappedOutputType="None" Name="address" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Variables>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="2c91bfaf-4c20-40fd-9453-1582e58ff006" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1792cc94-3a5f-4290-8415-26129e3d9a19" ActivityName="ProblemC_1_Challenge0" Guid="a03a3bfd-155b-4106-a1a1-7f85022dd918" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b8ed6151-5b5a-4205-a150-23f1417e26ab" ActivityName="ProblemC_2_Challenge0" Guid="0f5d18b0-b99e-4a81-be20-0c7593ecd7df" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="1825be5c-bc9d-49ad-960d-0c4efda0394f" ActivityName="ProblemC_3_Challenge0" Guid="1952f4c0-af60-49d5-93b9-9618dcda070d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="APITest" Guid="68e42fe9-3c8c-4699-a23d-a43a1750f23c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<TargetApplication AppName="MyWebApp" Guid="577d315c-472a-4d5c-8055-06efb855bd28" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+
+<Variables>
+<VariableString Guid="41781894-95df-4ab0-b7ae-1c34438bdff5" InitialStringValue="142" MappedOutputType="None" Name="UserID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Variables>
+</BusinessFlow></GingerRepositoryItem>

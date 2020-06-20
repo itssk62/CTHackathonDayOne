@@ -1,0 +1,1 @@
+{"Seq":2,"GUID":"9300af78-39ab-4fc1-b201-e960a03338d1","ActivityName":"Google Translater","StartTimeStamp":"2020-06-20T13:09:18.9440402Z","EndTimeStamp":"2020-06-20T13:09:46.1484444Z","Elapsed":27099,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

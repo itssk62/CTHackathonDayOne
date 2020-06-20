@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="d7e46b45-e088-46a4-bdf0-a66408d24017" ItemType="ProjEnvironment" CreatedBy="dp" Created="202006200942" GingerVersion="3.5.0.0" Version="1" LastUpdateBy="dp" LastUpdate="202006200942" />
+<ProjEnvironment Guid="d7e46b45-e088-46a4-bdf0-a66408d24017" Name="Default" ParentGuid="00000000-0000-0000-0000-000000000000">
+<Applications>
+<EnvApplication Active="True" Guid="aa4e4bcc-87b5-4603-8bad-aca730fbb004" Name="APITest" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>

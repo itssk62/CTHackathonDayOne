@@ -1,0 +1,1 @@
+{"apierror":{"status":"NOT_FOUND","timestamp":{"year":2020,"month":"JUNE","monthValue":6,"dayOfMonth":20,"hour":11,"minute":23,"second":3,"nano":888000000,"dayOfWeek":"SATURDAY","dayOfYear":172,"chronology":{"calendarType":"iso8601","id":"ISO"}},"message":"User was not found for parameters {Id not found=130}Error in Id/Entity","debugMessage":null,"subErrors":null}}
